@@ -1,31 +1,30 @@
 ---
-title: Using this tutorial
-sidebar_label: 1.1. Using this tutorial
+title: 이 지침서 사용하기
+sidebar_label: 1.1. 이 지침서 사용하기
 id: using-this-tutorial
 slug: /
 ---
 
-Welcome to the Teach Access Tutorial! This resource is part of the Teach Access Initiative, and provides best practices for making accessible mobile and web apps. This tutorial currently provides basic training for developers and designers, with more disciplines to come! If you are new to accessibility, you've come to the right place - the following material will help you get a solid footing on accessibility via hands-on exercises and useful reference guides. Follow the instructions below for using and interacting with the tutorial.
+Teach Access 지침서에 오신 걸 환영합니다! 이 리소스는 Teach Access 이니셔티브의 일부이고, 접근 가능한 모바일 및 웹 앱을 만들기 위한 모범 사례를 제공합니다. 이 지침서는 현재 개발자와 디자이너를 위한 기본 교육을 제공하고 있으며, 앞으로 더 많은 분야가 제공 될 예정입니다! 접근성이 처음이라면, 바로 잘 찾아오셨습니다 - 다음의 자료들이 실습과 유용한 참조 가이드를 통해 접근성에 대한 탄탄한 기반을 만드는데 도움이 될 것입니다. 지침서를 사용하고 활용하려면 다음 지침을 따르세요.
 
-1. You can use the left and right arrow keys to navigate through the slides.
+1. 슬라이드를 탐색하는데 왼쪽, 오른쪽 방향키를 사용할 수 있습니다.
 
-1. Each slide has some core concepts, code samples, and one or more exercises. After you complete an exercise,
-   use the verify button to check whether your solution is correct.
+1. 각 슬라이드는 몇 가지 핵심 개념, 코드 샘플, 하나 이상의 연습 문제가 있습니다. 연습 문제를 완료한 후에는,
+  답이 맞는지 확인하도록 확인 버튼을 사용하세요.
 
-1. You can also verify the code sample output using VoiceOver - Apple's built-in screen reader (other screen readers work too). Here are some instructions for navigating with VoiceOver:
+1. 애플의 내장 스크린리더인 보이스오버를 이용해서 코드 샘플 결과를 확인할 수도 있습니다(다른 스크린리더도 동일합니다). 다음은 보이스오버로 탐색하는 몇 가지 방법입니다:
 
-   - <kbd>cmd</kbd> + <kbd>F5</kbd> turns VoiceOver on/off
-   - <kbd>tab</kbd> navigates to an interactive element
-   - <kbd>ctrl</kbd> + <kbd>opt</kbd> + <kbd>right arrow</kbd> (repeatedly)
-     navigates to the next element
-   - <kbd>ctrl</kbd> + <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>h</kbd>
-     (repeatedly) navigates by headings
+   - <kbd>cmd</kbd> + <kbd>F5</kbd>는 보이스오버를 켜고 끕니다.
+   - <kbd>tab</kbd>은 인터랙티브 엘리먼트를 탐색합니다.
+   - <kbd>ctrl</kbd> + <kbd>opt</kbd> + <kbd>right arrow</kbd>는 (반복적으로) 다음 엘리먼트를 탐색합니다.
+   - <kbd>ctrl</kbd> + <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>h</kbd>는
+     (반복적으로) 헤딩을 탐색합니다.
 
-     **Please note:** the majority of people who use a screen reader [prefer JAWS or NVDA on a Windows machine](https://webaim.org/projects/screenreadersurvey9/#primary). WebAim has great articles about testing your code with [NVDA](https://webaim.org/articles/nvda/) and [JAWS.](https://webaim.org/articles/jaws/)
+     **참고 부탁드립니다:** 스크린리더를 사용하는 대부분의 사람들은 [Windows 시스템에서 JAWS나 NVDA를 선호합니다](https://webaim.org/projects/screenreadersurvey9/#primary). WebAim에 [NVDA](https://webaim.org/articles/nvda/) 및 [JAWS](https://webaim.org/articles/jaws/)를 사용하여 코드를 테스트 하는 것에 대한 좋은 글이 있습니다.
 
-1. When verifying with VoiceOver, use Chrome on a Mac for the best experience. However, the "Verify" button provided after each exercise will work with any browser/OS combination.
+1. 보이스오버로 검증할 때, 최상의 경험을 위해 Mac에서 Chrome을 사용하세요. 하지만, 각 연습 문제 후에 제공된 "확인" 버튼은 모든 브라우저/OS 조합에서도 동작합니다.
 
-1. ARIA stands for Accessible Rich Internet Applications, a W3C standard for
-   building accessible user interfaces on the web.
+1. ARIA는 접근 가능한 리치 인터넷 어플리케이션에 대한 약어로,
+웹에서 접근 가능한 유저 인터페이스를 구축하기 위한 W3C 표준입니다.
 
-Happy learning!
+즐겁게 배우세요!
