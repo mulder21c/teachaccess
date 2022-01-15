@@ -1,25 +1,32 @@
 ---
-title: Headings
-sidebar_label: 2.2. Headings
+title: 헤딩
+sidebar_label: 2.2. 헤딩
 id: headings
 ---
 
-Headings provide structure to a page. A person using a screen reader can navigate a page quickly using headings on the page if the headings used are semantic. Semantic headings include real heading tags such as `h1`, `h2`.
+헤딩은 페이지에 구조를 제공합니다. 스크린리더 사용자는 헤딩이 의미론에 따라 사용된 경우 페이지의 헤딩을 사용하여 페이지를 빠르게 탐색할 수 있습니다. 의미론적 헤딩은 `h1`, `h2`와 같은 실제 헤딩 엘리먼트를 포함합니다.
 
-## Semantic Heading
+## 의미론적 헤딩
 
-The heading below is a real heading and uses an `<h3>` tag. If you are on a Mac, turn on VoiceOver with <kbd>Cmd</kbd> + <kbd>F5</kbd> and then press <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Cmd</kbd> + <kbd>h</kbd> to jump to a heading.
+다음 헤딩은 실제 헤딩이며 `<h3>` 태그를 사용합니다. Mac에서 사용 중이라면, <kbd>Cmd</kbd> + <kbd>F5</kbd>로 보이스오버를 켜고 <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Cmd</kbd> + <kbd>h</kbd>를 눌러 헤딩으로 건너뛰어 보세요.
 
 import { Editor } from "../_util/Editor.mdx";
+
 <Editor>
   {`<h3>
   A real heading
 </h3>`}
-</Editor>;
+</Editor>
 
-## Unsemantic heading exercise
+:::tip 역자 주
 
-The heading below is a fake heading made to look like a heading with an unsemantic `<div>`. Change the `<div>` below to use an `<h3>` tag. Now verify your semantic heading using the Verify button as well as with VoiceOver.
+Windows + NVDA 사용자의 경우, <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>n</kbd>으로 NVDA를 켜고 <kbd>h</kbd>를 눌러 헤딩으로 건너뛰어 보세요.
+
+:::
+
+## 의미론적이지 않은 헤딩 연습
+
+다음 헤딩은 의미론적이지 않은 `<div>`로 헤딩처럼 보이도록 만들어진 가짜 헤딩입니다. 다음의 `<div>`을 `<h3>` 태그를 사용하도록 변경하세요. 이제 검증 버튼과 보이스오버를 사용하여 의미론적 헤딩을 검증해보세요.
 
 <Editor
   checkExercise={(result) => {
@@ -28,4 +35,4 @@ The heading below is a fake heading made to look like a heading with an unsemant
       return "It doesn't look like you converted the div to a real heading.";
     }
   }}
->{`<div class='fakeHeading'>A fake heading</div>`}</Editor>;
+>{`<div class='fakeHeading'>A fake heading</div>`}</Editor>

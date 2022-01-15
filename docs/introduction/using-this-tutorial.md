@@ -10,7 +10,7 @@ Teach Access 지침서에 오신 걸 환영합니다! 이 리소스는 Teach Acc
 1. 슬라이드를 탐색하는데 왼쪽, 오른쪽 방향키를 사용할 수 있습니다.
 
 1. 각 슬라이드는 몇 가지 핵심 개념, 코드 샘플, 하나 이상의 연습 문제가 있습니다. 연습 문제를 완료한 후에는,
-  답이 맞는지 확인하도록 확인 버튼을 사용하세요.
+  답이 맞는지 확인하도록 검증 버튼을 사용하세요.
 
 1. 애플의 내장 스크린리더인 보이스오버를 이용해서 코드 샘플 결과를 확인할 수도 있습니다(다른 스크린리더도 동일합니다). 다음은 보이스오버로 탐색하는 몇 가지 방법입니다:
 
@@ -20,7 +20,7 @@ Teach Access 지침서에 오신 걸 환영합니다! 이 리소스는 Teach Acc
    - <kbd>ctrl</kbd> + <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>h</kbd>는
      (반복적으로) 헤딩을 탐색합니다.
 
-     **참고 부탁드립니다:** 스크린리더를 사용하는 대부분의 사람들은 [Windows 시스템에서 JAWS나 NVDA를 선호합니다](https://webaim.org/projects/screenreadersurvey9/#primary). WebAim에 [NVDA](https://webaim.org/articles/nvda/) 및 [JAWS](https://webaim.org/articles/jaws/)를 사용하여 코드를 테스트 하는 것에 대한 좋은 글이 있습니다.
+     **참고 부탁드립니다:** 대부분의 스크린리더 사용자는 [Windows 시스템에서 JAWS나 NVDA를 선호합니다](https://webaim.org/projects/screenreadersurvey9/#primary). WebAim에 [NVDA](https://webaim.org/articles/nvda/) 및 [JAWS](https://webaim.org/articles/jaws/)를 사용하여 코드를 테스트 하는 것에 대한 좋은 글이 있습니다.
 
 1. 보이스오버로 검증할 때, 최상의 경험을 위해 Mac에서 Chrome을 사용하세요. 하지만, 각 연습 문제 후에 제공된 "확인" 버튼은 모든 브라우저/OS 조합에서도 동작합니다.
 
