@@ -1,32 +1,32 @@
 ---
-title: Images
-sidebar_label: 2.3. Images
+title: 이미지
+sidebar_label: 2.3. 이미지
 id: images
 ---
 
 import { Editor } from "../_util/Editor.mdx";
 
-Screen readers interact with text on the screen. So, to convey the meaning of
-an image to screen reader users, we put an accessible text label in the HTML. If an image is decorative, we can hide it from screen reader users by giving it an empty label (`alt=""`). After completing the exercise below, you can learn a lot more about writing good alt text for images by checking out [WebAIM's resource on the
-topic](http://webaim.org/techniques/alttext/).
+스크린리더는 스크린의 텍스트와 상호작용 합니다. 따라서, 스크린리더 사용자에게 이미지의 의미를 전달하기 위해,
+HTML에 접근 가능한 텍스트 레이블을 넣습니다. 이미지가 장식용인 경우, 빈 레이블(`alt=""`)을 제공하여 스크린리더 사용자에게 숨길 수 있습니다. 다음의 연습을 마친 후, [이 주제에 대한 WebAIM의 자료](http://webaim.org/techniques/alttext/)를 확인하여 이미지에 대한 좋은 대체 텍스트를 작성하는 것에 대해
+더 많이 학습 할 수 있습니다.
 
-## An Accessible Inline Image
+## 접근 가능한 인라인 이미지
 
-This is an image with an `alt` attribute. Turn on VoiceOver if you are on a Mac, tab
-to the Editor Output section, and use <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Right Arrow</kbd>
-to navigate to these images. VoiceOver will announce the `alt` text. For the second image below, VoiceOver
-will not announce anything meaningful since there is no `alt` text.
+이것은 `alt` 어트리뷰트가 있는 이미지입니다. Mac 사용자라면 보이스오버를 켜고,
+에디터 출력 섹션으로 탭하고 이미지를 탐색하도록 <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Right Arrow</kbd>를
+사용하세요. 보이스오버가 `alt` 텍스트를 낭독할 것입니다. 아래 두 번째 이미지의 경우,
+`alt` 텍스트가 없기 때문에 보이스오버는 어떤 유의미한 것을 낭독하지 않을 것입니다.
 
 <Editor>
   {`<img
-  alt='Teach Access Bridge logo'
+  alt='Teach Access Bridge'
   src='/img/inline-image.png'
 />`}
 </Editor>
 
-## Inaccessible Inline Image exercise
+## 접근 불가능한 인라인 이미지 연습
 
-This is an image without `alt` text. Turn on VoiceOver and listen to how it is read. Add an `alt` attribute "Teach Access logo" to this image to make it accessible and test it again with VoiceOver.
+이것은 `alt` 텍스트가 없는 이미지 입니다. 보이스오버를 켜고 그것을 어떻게 읽는지 들어보세요. 이 이미지가 접근 가능해지도록 `alt` 어트리뷰트  "Teach Access Bridge"를 추가하고 보이스오버로 다시 테스트 해보세요.
 
 <Editor
   checkExercise={(result) => {
@@ -37,7 +37,7 @@ This is an image without `alt` text. Turn on VoiceOver and listen to how it is r
     }
   }}
 >
-  {`<img 
+  {`<img
   src="/img/inline-image.png"
 />`}
 </Editor>
