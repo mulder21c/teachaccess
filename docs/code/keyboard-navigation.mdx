@@ -1,24 +1,24 @@
 ---
-title: Keyboard navigation
-sidebar_label: 2.4. Keyboard navigation
+title: 키보드 탐색
+sidebar_label: 2.4. 키보드 탐색
 id: keyboard-navigation
 ---
 
-Make all interactive elements work with a keyboard. For example, make sure a
-button that you activate with a click is also in the keyboard tab sequence and that pressing enter or space
-activates it. Set the `tabindex` attribute to `0` to include an element in the
-browser's keyboard tab sequence. If you want an element out of sequence, set
-its `tabindex` to `-1` and use JavaScript to control its focus and tab
-sequence, and related keyboard events. We do not recommend using `tabindex`
-values greater than `0` even though browsers support them. Note that HTML links
-and input elements have an implied `tabindex` of `0`.
+모든 인터랙티브 엘리먼트가 키보드로 작동하게 하세요. 예를 들어,
+클릭으로 활성화 하는 버튼은 키보드 탭 시퀀스에 존재하고 엔터나 스페이스를 누르는 것으로도 버튼이 활성화되는지 확인하세요.
+브라우저의 키보드 탭 시퀀스에 엘리먼트가 포함되도록
+`tabindex` 어트리뷰트를 `0`으로 설정하세요. 엘리먼트가 시퀀스에서 벗어나게 하려면,
+`tabindex`를 `-1`로 설정하고 포커스와 탭 및 관련 키보드 이벤트를 제어하도록
+JavaScript를 사용하세요. 브라우저가 지원하더라도 `tabindex`에 `0`보다 큰 값을 사용하는 것은
+권장하지 않습니다. HTML 링크 및 input 엘리먼트는
+암묵적으로 `0`인 `tabindex`를 가집니다.
 
-## Semantic Button
+## 의미론적 버튼
 
-The button below uses a semantic `button` tag and is correctly announced by
-screen readers. If you are on a Mac, turn on VoiceOver and tab to the
-button. You will hear the name of the element and the element type announced
-by VoiceOver.
+다음 버튼은 의미론적 `button` 엘리먼트를 사용하고 스크린리더로 올바르게 낭독됩니다.
+Mac을 사용 중이라면, 보이스오버를 켜고 버튼으로 탭하세요.
+보이스오버에서 낭독되는
+엘리먼트 이름과 엘리먼트 유형을 들을 수 있을 것입니다.
 
 <Editor>
   {`<button onclick="alert('Take a HIKE!')">
@@ -26,17 +26,23 @@ by VoiceOver.
 </button>`}
 </Editor>
 
-## Unsemantic Button exercise
+## 의미론적이지 않은 버튼 연습
 
-The button below is constructed using an unsemantic `div`. The easiest way to
-make this semantic is to use a real `button` or `input` tag. Here is another way. In the
-example below, add
+다음 버튼은 의미론적이 않은 `div`을 사용하여 구성됩니다.
+이를 의미론적으로 만드는 가장 쉬운 방법은 실제 `button` 또는 `input` 엘리먼트를 사용하는 것입니다. 여기 다른 방법이 있습니다.
+아래 예에 다음을 추가하세요.
 
 1. `role='button'`
 1. `tabindex='0'`
 
-Verify with VoiceOver that you can tab to the button and hear the button name and the fact
-that it is a button element. Note that you would need to add an `onkeypress` or `onkeydown` handler to the button so you can tab to the button and press <kbd>enter</kbd> to activate it using just the keyboard.
+버튼으로 탭 하고 버튼 이름과 그것이 실제로 버튼 엘리먼트인지 들을 수 있는지 보이스오버로 검증해보세요.
+버튼에 탭하고 키보드만 사용하여 활성화하기 위해 <kbd>enter</kbd>를 누를 수 있도록 버튼에 `onkeypress`나 `onkeydown` 핸들러를 추가해야 함에 주의하세요.
+
+:::tip 역자 주
+
+ARIA와 tabindex로 해결이 가능하기는 하지만, [ARIA의 제 1원칙](https://www.w3.org/TR/using-aria/#rule1)은 ARIA를 사용하지 않고 native HTML로 해결하는 것이므로 `button`이나 `input`을 사용하는 것을 강력히 권장합니다.
+
+:::
 
 import { Editor } from "../_util/Editor.mdx";
 
