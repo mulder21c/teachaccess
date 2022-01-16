@@ -1,7 +1,7 @@
 ---
-title: Introduction
-sidebar_label: 3.1. Introduction
+title: 소개
+sidebar_label: 3.1. 소개
 id: introduction
 ---
 
-In this section, you'll learn about how color, contrast, text size and many other aspects of visual design affect how people with different abilities interact with your product. In order to ensure that everyone can use your application, you'll want to keep these basic accessibility principles in mind. This tutorial won't cover everything in the world of accessible design, but it will give you a few tips that you can immediately apply to everything you build moving forward. Happy designing!
+이 섹션에서는, 색상, 대비, 텍스트 크기 및 시각적 디자인의 많은 다른 측면이 서로 다른 능력을 가진 사람들이 제품과 상호작용하는 방식에 어떤 영향을 미치는지를 학습합니다. 모든 사람이 어플리케이션을 사용할 수 있도록 하려면, 이 기본 접근성 원칙을 명심해야 합니다. 이 지침서는 접근 가능한 디자인의 모든 것을 다루지는 않지만, 앞으로 구축하는 모든 것에 즉시 적용할 수 있는 몇 가지 팁을 제공합니다. Happy designing!
