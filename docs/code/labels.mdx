@@ -1,21 +1,21 @@
 ---
-title: Labels
-sidebar_label: 2.5. Labels
+title: 레이블
+sidebar_label: 2.5. 레이블
 id: labels
 ---
 
-Accessible labels are necessary to make several other types of elements
-understandable, such as inputs, widgets, and ARIA landmark regions.
-Accessible labels that create a delightful experience are:
+input, 위젯, ARIA 랜드마크 영역과 같은 몇 가지 다른 유형의 엘리먼트를 이해하려면
+접근 가능한 레이블이 필요합니다.
+정말 기분 좋은 경험을 주는 접근 가능한 레이블은 다음과 같습니다:
 
-1. Concise -- 1 to 3 simple words. Only occasionally as many as 5 words.
-1. Meaningful -- accurately convey the purpose of the element.
+1. 간결 -- 1에서 3자의 간단한 단어. 가끔 5단어 정도.
+1. 유의미 -- 엘리먼트의 목적을 정확하게 전달.
 
-There are many ways to label an interactive element such as a button or an input field, which you will see below. You can check the results of adding the various label types by testing in your screen reader too!
+아래에서 볼 수 있는 버튼이나 입력 필드 같은 인터랙티브 엘리먼트에 레이블을 지정하는 방법에는 여러 가지가 있습니다. 다양한 레이블 추가 결과는 스크린리더로도 테스트하여 확인 할 수 있습니다!
 
-## Self-labeled
+## 자체 레이블 지정
 
-Some elements, like links and buttons with display text, label themselves. In this case, screen reader users and all other users can perceive the label.
+노출 텍스트가 있는 링크와 버튼 같은 일부 엘리먼트는 자체적으로 레블을 지정합니다. 이 경우, 스크린리더 사용자와 다른 모든 사용자가 레이블을 인식할 수 있습니다.
 
 import { Editor } from "../_util/Editor.mdx";
 
@@ -25,9 +25,9 @@ import { Editor } from "../_util/Editor.mdx";
 </button>`}
 </Editor>
 
-## Using `<label>`
+## `<label>` 사용
 
-If we put text on the screen near an input such as a text field, the screen reader cannot reliably pick up on that visual association. It needs to be told which nearby text is the associated label. One way to do this is with the `label` element.
+텍스트 필드와 같이 input 근처 스크린에 텍스트를 두는 경우, 스크린리더는 그 시각적 연결을 확실하게 인식할 수 없습니다. 근처 텍스트가 연관 레이블임을 알려주어야 합니다. 이를 위한 한 가지 방법은 `label` 엘리먼트를 사용하는 것입니다.
 
 <Editor>
   {`<div>
@@ -36,9 +36,9 @@ If we put text on the screen near an input such as a text field, the screen read
 </div>`}
 </Editor>
 
-## Using 'aria-labelledby'
+## 'aria-labelledby' 사용
 
-The HTML label works only for HTML inputs. If we make a control out of other elements by using ARIA, we can instead use `aria-labelledby`.
+HTML label은 HTML input에 대해서만 작동합니다. ARIA를 사용하여 다른 엘리먼트에 의해 제어되도록 만든다면, `aria-labelledby`를 대신 사용할 수 있습니다.
 
 <Editor>
   {`<div>
@@ -52,9 +52,9 @@ The HTML label works only for HTML inputs. If we make a control out of other ele
 </div>`}
 </Editor>
 
-## Using 'aria-label'
+## 'aria-label' 사용
 
-In rare cases, the purpose of the input is visually obvious in context, but it's not obvious to someone using a screen reader. We can provide contextual detail with `aria-label`.
+드물게, input의 목적이 문맥상으로는 시각적으로 명확하지만, 스크린리더 사용자에게는 그렇지 않습니다. `aria-label`로 상황별 디테일을 제공할 수 있습니다.
 
 <Editor>
   {`<fieldset>
@@ -65,9 +65,9 @@ In rare cases, the purpose of the input is visually obvious in context, but it's
 </fieldset>`}
 </Editor>
 
-## Using 'aria-describedby'
+## 'aria-describedby' 사용
 
-Occasionally, a label by itself is insufficient information. If help text is present in the UI, we can identify it as an accessible description by using `aria-describedby`.
+가끔, 레이블 자체만으로는 정보가 부족한 경우가 있습니다. UI에 도움말 텍스트가 있는 경우, `aria-describedby`을 사용하여 접근 가능한 설명으로 알아보게 할 수 있습니다.
 
 <Editor>
   {`<div>
@@ -77,9 +77,9 @@ Occasionally, a label by itself is insufficient information. If help text is pre
 </div>`}
 </Editor>
 
-## Inaccessible Button exercise
+## 의미론적이지 않은 버튼 연습
 
-Add an `aria-label` to the button below and label it 'search' to make it accessible.
+다음 버튼에 `aria-label`를 추가하고  'search'라고 레이블을 지정하여 접근 가능하게 만드세요.
 
 <Editor
   checkExercise={(result) => {
@@ -92,11 +92,10 @@ Add an `aria-label` to the button below and label it 'search' to make it accessi
   {`<button class="searchBtn"></button>`}
 </Editor>
 
-## Inaccessible Interactive Elements exercise
+## 의미론적이지 않은 인터랙티브 엘리먼트 연습
 
-Add an `aria-labelledby` to the input field below and point it to the `id` of the prompt span.
-Also, add an `aria-describedby` to the input field and point it to the description below to
-make it accessible.
+다음 입력 필드에 `aria-labelledby`를 추가하고 prompt span의 `id`를 가리키게 하세요.
+그리고, 입력 필드에 `aria-describedby`를 추가하고 아래 설명을 가리키게 하여 접근 가능하게 만드세요.
 
 <Editor
   checkExercise={(result) => {
