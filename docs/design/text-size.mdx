@@ -1,33 +1,33 @@
 ---
-title: Text
-sidebar_label: 3.4. Text size
+title: 텍스트
+sidebar_label: 3.4. 텍스트 크기
 id: text-size
 ---
 
-People with low vision use browser zoom tools and assistive technology such as
-[ZoomText](http://www.aisquared.com/products/zoomtext/) to increase the size of
-content on the screen. This exercise shows you the difference between zooming
-all the content versus zooming just the text on the page.
+저시력자는 스크린의 콘텐츠 사이즈를 늘리기 위해 브라우저 확대 도구와
+[ZoomText](http://www.aisquared.com/products/zoomtext/)와 같은 보조 기술을 사용합니다.
+이 연습에서는 모든 콘텐츠를 확대하는 것과
+페이지의 텍스트만 확대한 것의 차이를 보여줍니다.
 
-## Text Size
+## 텍스트 크기
 
-For people with low vision, it is important to support the ability to increase
-text size without text overlapping or getting truncated. To test, use your browser's
-built-in zoom or text-resize feature to zoom and make sure text is still readable.
-If you are building for the mobile web, please don't disable pinch and zoom.
+저시력자의 경우, 텍스트가 겹치거나 잘리지 않고 텍스트 크기를 늘리는 기능을 지원하는 것이 중요합니다.
+테스트하려면,
+브라우저의 내장 확대 또는 텍스트 크기 조정 기능을 사용하여 확대하고 텍스트를 계속 읽을 수 있는지 확인하세요.
+모바일 웹을 구축 중인 경우, 핀치 줌을 비활성화하지 마세요.
 
-[WCAG guidelines recommend allowing zooming up to 200% without loss of
-content.](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-scale)
+[WCAG 지침은 콘텐츠 손실 없이 200%까지 확대를 허용할 것을 권장합니다.
+](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-scale)
 
-[More on fonts and accessibility in the WebAIM
-site.](http://webaim.org/techniques/fonts/#font_size)
+[WebAIM 사이트에서 글꼴과 접근성에 대해 자세히 알아보세요.
+](http://webaim.org/techniques/fonts/#font_size)
 
-For the exercise below, you will need a browser like Safari that allows you to
-increase just the text size instead of zooming in the whole page. On Safari,
-go to View and Zoom Text Only and then select Zoom In from the same menu. You
-will notice that the words bleed outside the box below. Try fixing this example
-by specifying the width and height as relative units, such as ems. Set the height
-to 3em and width to 10em and verify your answers.
+다음 연습의 경우, 전체 페이지를 확대하는 대신 텍스트 크기만 늘릴 수 있는
+사파리 같은 브라우저가 필요할것입니다.
+사파리에서, 보기로 가서 텍스트만 확대/축소로 이동한 다음 동일 메뉴에서 확대를 선택합니다.
+다음 상자 밖으로 이 단어가 흘러 나오는 것을 알 수 있습니다.
+너비와 높이를 em과 같은 상대 단위로 지정하여 이 예제를 수정해보세요.
+높이를 3em과 너비를 10em으로 설정하고 답을 확인해보세요.
 
 import { Editor } from "../_util/Editor.mdx";
 
@@ -41,7 +41,7 @@ import { Editor } from "../_util/Editor.mdx";
     }
   }}
 >
-  {`<div 
+  {`<div
   id="container"
   style="width: 80px; height: 50px;"
 >
