@@ -1,7 +1,7 @@
 module.exports = {
   docs: {
-    "1. Introduction": ["introduction/using-this-tutorial", "introduction/faq"],
-    "2. Writing Code": [
+    "1. 도입": ["introduction/using-this-tutorial", "introduction/faq"],
+    "2. 코드 작성": [
       "code/introduction",
       "code/headings",
       "code/images",
@@ -15,7 +15,7 @@ module.exports = {
       "code/aria",
       "code/checklist",
     ],
-    "3. Design Principles": [
+    "3. 디자인 원칙": [
       "design/introduction",
       "design/color-contrast",
       "design/color-meaning",
