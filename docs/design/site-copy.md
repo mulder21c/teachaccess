@@ -1,25 +1,25 @@
 ---
-title: Site copy
-sidebar_label: 3.5. Site copy
+title: 사이트 카피
+sidebar_label: 3.5. 사이트 카피
 id: site-copy
 ---
 
-The content you write for your website or application matters a great deal for
-its usability and accessibility. The Web Content Accessibility Guidelines
-recommends that you use a reading ability equivalent of a [lower secondary
-education level](http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-supplements).
-That's a good, general rule of thumb to go by. Here are a few more:
+웹사이트나 어플리케이션을 위해 작성하는 콘텐츠는 사용성과 접근성에 있어 매우 중요합니다.
+웹 콘텐츠 접근성 지침은
+[중학교 교육 수준](http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-supplements)과
+동등한 읽기 능력을 사용할 것을 권장합니다.
+그것은 좋은 일반적인 경험의 규칙입니다. 몇 가지 더 있습니다:
 
-- Avoid using directional language like “below” and “left/right.” These require
-  that you can see the visual layout of the page.
-- Use alt-text for images. Alt-text describes the contents of an image to
-  someone who is visually impaired and using a screen reader. If your designs
-  include images that you've created (not user-generated images), you need to
-  provide alt-text in your front end layer.
-- Provide explanatory and context-specific text where possible. Explanatory text
-  consists of short text strings that describe an interface element’s function
-  (ex: if you have a search button that looks like a magnifying glass, you
-  might consider adding an on-hover tooltip of "Search").
+- "아래"와 "왼쪽/오른쪽"과 같은 방향 언어를 사용하지 마세요.
+  이렇게 하려면 페이지의 시각적 레이아웃을 볼 수 있어야 합니다.
+- 이미지에 대해 대체 텍스트를 사용하세요.
+  대체 텍스트는 시각 장애가 있고 스크린리더를 사용하는 사용자에게 이미지의 콘텐츠를 설명합니다.
+  당신의 디자인이 당신이 생성한 이미지를 (사용자가 생성한 이미지 말고) 포함하는 경우,
+  프론트 엔드 레이어에 대체 텍스트를 제공해야 합니다.
+- 가능한 경우 설명과 상황별 텍스트를 제공하세요.
+  설명 텍스트는 인터페이스 엘리먼트의 기능을 설명하는 짧은 텍스트 문자열로 구성됩니다.
+  (예: 돋보기처럼 보이는 검색 단추가 있는 경우,
+  "검색"의 호버 툴팁을 추가하는 것을 고려할 수 있습니다.)
 
-Take note that if your website or application includes other text artifacts like
-PDFs, you may need to provide unique accessibility support for those media.
+웹사이트 또는 어플리케이션이 PDF와 같은 다른 텍스트 아티팩트를 포함하는 경우,
+그러한 미디어에 대한 고유한 접근성 지원을 제공해야 할 수 있습니다.
