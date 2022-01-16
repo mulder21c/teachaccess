@@ -1,25 +1,25 @@
 ---
-title: Tables
-sidebar_label: 2.8. Tables
+title: 표
+sidebar_label: 2.8. 표
 id: tables
 ---
 
 import { VerifyButton } from "../_util/VerifyButton.mdx";
 
-Tables help screen readers process information presented in a tabular format.
-When information is presented using table markup, screen reader users can read down columns and across rows, and even hear column and row headings as they do so.
+table은 스크린리더가 표 형식으로 나타나는 정보를 처리하는데 도움이 됩니다.
+정보가 table 마크업을 사용하여 나타날 경우, 스크린리더 사용자는 열과 행에 걸쳐 읽을 수 있으며, 열과 행 제목을 들을 수도 있습니다.
 
-## Semantic Table
+## 의미론적 표
 
-The following table uses semantic `table` markup. HTML provides many elements and attributes to create fully
-accessible tables. Note: ARIA 1.0 does not include HTML table equivalence; that is coming in ARIA 1.1. So
-it is best to stick to native HTML unless you are building an interactive grid that includes two-dimensional
-arrow key navigation of the table content. To test the table below with VoiceOver:
+다음 표는 의미론적 `table` 마크업을 사용합니다. HTML은 완전히 접근 가능한 표를 만들기 위한 많은 엘리먼트와 어트리뷰트를 제공합니다.
+참고: ARIA 1.0은 HTML table과 동등한 것을 포함하지 않습니다; ARIA 1.1에 들어옵니다.
+따라서 표 컨텐츠의 2차원 방향키 탐색을 포함하는 대화형 그리드를 구축하는 경우가 아닌 이상 네이티브 HTML을 고수하는 것이 좋습니다.
+보이스오버로 다음 표를 테스트 하기 위해:
 
-1. Press <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Cmd</kbd> + <kbd>h</kbd> repeatedly until you reach the "Editor Output" region.
-2. Now press <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Right Arrow</kbd> repeatedly to navigate the table cells.
+1. "에디터 출력" 영역에 도달할 때까지 <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Cmd</kbd> + <kbd>h</kbd>를 반복적으로 누르세요.
+2. 표 셀을 탐색하기 위해 이제 <kbd>Ctrl</kbd> + <kbd>Opt</kbd> + <kbd>Right Arrow</kbd>를 반복적으로 누르세요.
 
-At this time, VoiceOver does not read the column headers in Chrome. However, VoiceOver does read them in Safari. Windows screen readers typically read column and row headers as well.
+현 시점에서, 보이스오버는 크롬에서 열 제목을 읽지 않습니다. 하지만 사파리에서는 읽습니다. Windows 스크린리더는 일반적으로 열과 행 제목을 읽습니다.
 
 import { Editor } from "../_util/Editor.mdx";
 
@@ -46,13 +46,12 @@ import { Editor } from "../_util/Editor.mdx";
   </tbody>
 </table>`}
 </Editor>
-;
 
-## Unsemantic Table exercise
+## 의미론적이지 않은 표 연습
 
-If the information is tabular, using CSS to create the appearance of a table makes the information
-almost impossible for a screen reader user to understand and use. Convert the following tabular data
-into an accessible HTML table.
+정보가 표 형태일 경우, CSS를 사용하여 표 모양을 만드는 것은
+스크린리더 사용자에게 정보를 이해하고 사용하는 것을 거의 불가능하게 만듭니다.
+다음 표 데이터를 접근 가능한 HTML table로 변환하세요.
 
 <Editor
   checkExercise={(exercise) => {
