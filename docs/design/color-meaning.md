@@ -1,6 +1,6 @@
 ---
-title: 색상 의미
-sidebar_label: 3.3. 색상 의미
+title: 색상 수단
+sidebar_label: 3.3. 색상 수단
 id: color-meaning
 ---
 

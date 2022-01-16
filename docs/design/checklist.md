@@ -1,27 +1,27 @@
 ---
-title: Checklist
-sidebar_label: 3.7. Checklist
+title: 체크 리스트
+sidebar_label: 3.7. 체크 리스트
 id: checklist
 ---
 
-We've covered a bunch of ground related to improving the accessibility of visual designs. One of the most important steps you can take to ensuring you create accessible experiences is accounting for accessibility at the start and throughout the design process. To that end, use the following checklist when you begin to formalize your visual designs for a website or application:
+우리는 시각 디자인의 접근성 향상과 관련된 많은 부분을 다루었습니다. 접근 가능한 경험을 만들기 위해 취할 수 있는 중요한 단계 중 한 가지는 디자인 프로세스의 시작과 전반에 걸쳐 접근성을 고려하는 것입니다. 이를 위해 웹사이트나 어플리케이션에 대한 시각 디자인을 형식화 할 때 다음의 체크 리스트를 사용하세요:
 
-- Do I have sufficient contrast between text and my background?
-- Do I have sufficient contrast between UI elements and my background?
+- 텍스트와 배경 간 대비가 충분한가요?
+- UI 엘리먼트와 배경 간 대비가 충분한가요?
 
-- Are there any places where I'm color or other visual means alone to indicate something (ie, no text equivalent)?
-- Is my written content simple and easy to understand?
-- Are there any cases where the screen is flashing or flickering?
-- Does every mouse interaction have a keyboard-only equivalent interaction?
-- Have captions been included with any audio or audio/visual presentation?
-- If any interaction involves a timed response or session timeout, is this communicated well?
+- 색상이나 다른 시각적 수단만으로 무언가를 나타내는 곳이 있습니까 (즉, 동등한 텍스트가 없습니까)?
+- 작성된 콘켄츠는 간단하고 이해하기 쉬운가요?
+- 스크린이 번쩍이거나 깜박이는 경우가 있습니까?
+- 모든 마우스 인터랙션은 동등한 키보드 전용 인터랙션이 있습니까?
+- 오디오나 오디오/시각 프리젠테이션에 자막이 포함되어 있나요?
+- 시간 제한 응답이나 세션 시간 초과가 포함된 인터랙션이 있는 경우, 이것이 잘 전달되고 있습니까?
 
-There are also a number of free tools available for assessing the accessibility:
+접근성을 평가하는데 사용될 수 있는 여러 가지 무료 도구가 있습니다:
 
-- [WAVE by WebAIM for general website accessibility](http://wave.webaim.org/)
-- [Juicy Studio's Readability Test](http://juicystudio.com/services/readability.php)
-- [Vischeck's Color Blindness Checker](http://www.vischeck.com/)
-- [Functional Accessibility Evaluator 2.2](https://fae.disability.illinois.edu)
-- [AInspector Sidebar for Firefox](http://ainspector.github.io)
+- [일반적인 웹사이트 접근성을 위한 WebAIM의 WAVE](http://wave.webaim.org/)
+- [Juicy 스튜디오의 가독성 검사](http://juicystudio.com/services/readability.php)
+- [Vischeck의 색각 이상 검사](http://www.vischeck.com/)
+- [기능적 접근성 평가기 2.2](https://fae.disability.illinois.edu)
+- [파이어폭스용 AInspector 사이드바](http://ainspector.github.io)
 - [Pa11y](http://pa11y.org)
 - [Koa11y](https://open-indy.github.io/Koa11y)
