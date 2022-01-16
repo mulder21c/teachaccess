@@ -27,7 +27,7 @@ Teach Access 지침서는 접근 가능한 소프트웨어를 작성하고 포�
 
 **접근성을 위한 몇 가지 훌륭하고 무료 개발 도구는 무엇인가요?**
 
-- [WebAIM의 일반적인 웹사이트 접근성을 위한 WAVE](http://wave.webaim.org/)
+- [일반적인 웹사이트 접근성을 위한 WebAIM의 WAVE](http://wave.webaim.org/)
 - [Juicy 스튜디오의 가독성 검사](http://juicystudio.com/services/readability.php)
 - [Vischeck의 색각 이상 검사](http://www.vischeck.com/)
 
