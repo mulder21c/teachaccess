@@ -1,23 +1,23 @@
 ---
-title: ARIA Introduction
-sidebar_label: 2.10. ARIA Introduction
+title: ARIA 소개
+sidebar_label: 2.10. ARIA 소개
 id: aria-introduction
 ---
 
-Web sites were simple, accessible documents in the early days of the Internet. But accessibility was lost when web sites became applications. [Accessible Rich Internet Aplications (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) extends HTML to create accessible web applications.
+웹 사이트는 인터넷 초창기에 간단하고 접근 가능한 문서였습니다. 하지만 웹 사이트가 어플리케이션이 되면서 접근성이 상실되었습니다. [접근 가능한 리치 인터넷 어플리케이션 (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)는 접근 가능한 웹 어플리케이션을 만들도록 HTML을 확장합니다.
 
-ARIA is a set of HTML attributes for developers to control the information surfaced by assistive technology. ARIA can define an element's label, state, properties, and role.
+ARIA는 보조 기술에 의해 드러난 정보를 제어하기 위한 개발자들에 대한 HTML 어트리뷰트 모음입니다. ARIA는 엘리먼트의 레이블, 상태, 속성, 역할을 정의할 수 있습니다.
 
-ARIA is a powerful tool and must be used with care. The [first rule of ARIA](https://www.w3.org/TR/using-aria/#rule1) is to not use ARIA. Use semantic HTML and augment with ARIA. However, we often need to use ARIA to extend HTML or fix inaccessible code. Understanding ARIA is critical for today's web developers.
+ARIA는 강력한 도구이고 주의를 기울여 사용해야 합니다. [ARIA의 첫 번째 규칙](https://www.w3.org/TR/using-aria/#rule1)이 ARIA를 사용하지 말라는 것입니다. 의미론적 HTML을 사용하고 ARIA로 보강하세요. 하지만, 때때로 HTML을 확장하거나 접근 불가능한 코드를 수정하기 위해 ARIA를 사용할 필요가 있습니다. ARIA를 이해하는 것은 오늘날 웹 개발자에게 매우 중요합니다.
 
-ARIA does not make your application accessible. It makes it understandable. You can't put role="button" on a div and expect it to work with a keyboard and screen reader. Adding role="button" simply tells assistive technology to expect the div is actually a button. You would still need to make the div focusable and listen for onkeypress of <kbd>enter</kbd> and <kbd>spacebar</kbd>. Which is why it's always better to start with a semantic button.
+ARIA는 당신의 어플리케이션을 접근 가능하게 만들지 않습니다. 이해할 수 있게 만드는 겁니다. div에 role="button"을 놓고 키보드 및 스크린리더와 작동할 것을 기대할 수 없습니다. role="button"을 추가하는 것은 보조기술에 div가 실제로 버튼이라고 예상하도록 단순히 전달할 뿐입니다. 여전히 div이 초점을 얻을 수 있도록 만들고 <kbd>enter</kbd> 및 <kbd>spacebar</kbd>의 onkeypress를 수신하도록 만들 필요가 있습니다. 의미론적 button으로 시작하는 것이 항상 더 나은 이유가 바로 이것입니다.
 
-### Commonly used ARIA attributes
+### 일반적으로 사용되는 ARIA 어트리뷰트
 
-- [Roles](https://www.w3.org/TR/wai-aria-1.1/#roles): button, img, link
-- [Properties](https://www.w3.org/TR/wai-aria-1.1/#global_states): aria-label, aria-live, aria-haspopup
-- [States](https://www.w3.org/TR/wai-aria-1.1/#global_states): aria-required, aria-selected, aria-expanded
-- [Landmarks](https://www.w3.org/TR/wai-aria-1.1/#landmark_roles): main, banner, search, region
-- [Complex roles](https://www.w3.org/TR/wai-aria-1.1/#widget_roles): alert, tablist, table, toolbar
+- [역할](https://www.w3.org/TR/wai-aria-1.1/#roles): button, img, link
+- [속성](https://www.w3.org/TR/wai-aria-1.1/#global_states): aria-label, aria-live, aria-haspopup
+- [상태](https://www.w3.org/TR/wai-aria-1.1/#global_states): aria-required, aria-selected, aria-expanded
+- [랜드마크](https://www.w3.org/TR/wai-aria-1.1/#landmark_roles): main, banner, search, region
+- [복합 역할](https://www.w3.org/TR/wai-aria-1.1/#widget_roles): alert, tablist, table, toolbar
 
-You will find ARIA examples within the Tutorial pages.
+지침서 페이지 내에서 ARIA 예제들을 찾을 수 있습니다.
