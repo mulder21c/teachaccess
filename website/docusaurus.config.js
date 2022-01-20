@@ -39,12 +39,17 @@ const config = {
       items: [
         {
           to: "/",
-          label: "Tutorial",
+          label: "지침서",
           position: "left",
         },
         {
           to: "/help",
-          label: "Help",
+          label: "지원",
+          position: "left",
+        },
+        {
+          to: "/translate",
+          label: "번역",
           position: "left",
         },
       ],

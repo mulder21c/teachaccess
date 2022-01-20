@@ -25,46 +25,49 @@ function Help(props) {
   const langPart = `${language ? `${language}/` : ""}`;
   const docUrl = (doc) => `${baseUrl}${docsPart}${langPart}${doc}`;
 
-  const supportLinks = [
-    {
-      content: `[이 사이트의 문서](${docUrl(
-        "doc1.html"
-      )})를 사용해서 더 자세히 학습하세요.`,
-      title: "문서 보기",
-    },
-    {
-      content: "문서 및 프로젝트에 대한 질문",
-      title: "커뮤니티에 참여",
-    },
-    {
-      content: "이 프로젝트의 새로운 내용 알아보기",
-      title: "최신 상태 유지",
-    },
-  ];
-
   return (
     <div className="docMainWrapper wrapper">
       <Container className="mainContainer documentContainer postContainer">
         <div className="post" style={{ textAlign: "center" }}>
           <header className="postHeader">
-            <h1>도움이 필요하신가요?</h1>
+            <h1>번역</h1>
           </header>
           <p>
-            <a href="mailto: info@teachaccess.org">info@teachaccess.org</a>로
-            연락 주시거나{" "}
+            원문:{" "}
             <a
-              href="https://github.com/teachaccess/tutorial/issues"
+              href="https://teachaccess.github.io/tutorial/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://teachaccess.github.io/tutorial/
+            </a>
+          </p>
+          <p>
+            번역:{" "}
+            <a
+              href="https://github.com/mulder21c"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              @mulder21c
+            </a>
+          </p>
+          <p>
+            본 번역은 원저작자 teach access initiatives의 허가 및 오픈소스
+            라이선스 하에 번역 되었습니다.
+          </p>
+          <p>
+            오역이나 오탈자 등의 발견 시{" "}
+            <a href="mailto: mail@mulder21c.io">메일</a>이나{" "}
+            <a
+              href="https://github.com/mulder21c/teachaccess/issues"
               target="_blank"
               rel="noreferrer noopener"
             >
               GitHub issue
             </a>
-            를 등록해주세요.
+            에 등록해주세요.
           </p>
-          <div>
-            <p>피드백을 통해 튜토리얼을 개선하고 싶습니다.</p>
-          </div>
-          <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
     </div>
